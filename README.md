@@ -3,7 +3,7 @@ Web api que permite realizar las 4 operaciones basicas
 
 1.	Clonar repositorio
 2.	Abrir consola de comandos
-3.	Navegar hasta la carpeta de la solución ejemplo: cd c:\users\desktop\CalcApi\CalcApi
+3.	Navegar hasta la carpeta de la solución ejemplo: cd c:\users\desktop\CalcApi\CalcApi que es donde se encuentra el archivo Dockerfile.
 4.	Ejecutar comando dotnet run, para validar que la aplicación si funcione.
 5.	Compilar imagen: ejecutar Docker build -t apicalc/core ., se descargan las imágenes necesarias.
 6.	Una vez creada la imagen ejecutar el contenedor docker run – p 80:5000 apicalc/core
